@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross-Site Scripting (XSS) Attacks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <!-- Add Font Awesome link if not included already -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+</head>
+<body>
+  <header>
+      <h1>Blogs</h1>
+  </header>
+  <section id="user-input">
+      <form>
+          <div class="form-control">
+              <label for="user-message">
+                  <i class="fas fa-comment"></i><h3>Role of Artificial Intelligence & Machine Learning in Incident Response</h3> 
+              </label><br>
+              <img src="https://www.assetguardian.com/wp-content/uploads/2023/05/iStock-1288122718.jpg" style="width: 100%; height: auto;"><br>
+              <p style="margin-top: 1rem;">Effective Cyber Incident Response Planning is critical to surviving the onslaught of cyber crime in 2024. Artificial Intelligence and Machine Learning in Incident Response applied along with a strong Cybersecurity Incident Response Plan can truly transform your cybersecurity maturity this year. <br><br>
+
+                The amalgamation of AI and ML in your Incident Response strategy can decrease time to detect, respond to and mitigate a cybersecurity incident. It can significantly streamline detection activities, reducing the need for manual intervention. The specialised IT/Incident Response teams are also empowered with better decision-making capabilities and data-driven insights through the use of these technologies.  However, it's important to note that AI and ML need humongous amounts of data to self-learn and be effective. And this is a challenge that you must be aware of before you make a leap into using these technologies.<br><br>
+                
+                In this article, we explore 5 of the most compelling ways in which Artificial Intelligence and Machine Learning can transform cyber incident response and elevate your overall cyber resilience tremendously. <br><br>
+              
+                Remember, before you decide to adopt any of the new technologies and tools to elevate your Incident Response, it makes sense to have your existing plans and processes reviewed by an expert. Don't just dive into expensive AI and ML tools until all the background work has been done.<br><br>
+
+Without a robust cyber incident response plan and relevant policies in place, just introducing AI and ML into the mix isn't going to help. Our NCSC Assured Training in Cyber Incident Planning and Response is the perfect way to go down this road. We delve into the subject of Artificial Intelligence and Machine Learning in Incident Response in considerable detail in this course. Attending the workshop will be the ideal way to understand if AI and ML technologies will help you in the stage of cyber resilience you're at.  <br><br>
+
+Our Virtual Cyber Assistant service is also specifically designed to cater to this need in a flexible and cost-effective way. Our cybersecurity consultants can help you review, refresh or create new cyber incident response plans and cybersecurity policies.
+              
+              
+              
+              
+              </p>
+          </div>
+          <div class="form-control">
+              <label for="blog-comment">
+                  <i class="fas fa-image"></i> Add Comment
+              </label>
+              <input type="text" id="blog-comment" name="blog-comment" placeholder="Add Your Comment here"/>
+          </div>
+          <button type="submit">Post</button>
+      </form>
+  </section>
+  <section id="user-messages">
+      <ul></ul>
+  </section>
+  <!-- Add the Font Awesome script if not included already -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script> -->
+</body>
+</html>
